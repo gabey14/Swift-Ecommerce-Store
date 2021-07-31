@@ -102,11 +102,14 @@ const Wrapper = styled.section`
   }
 
   .sort-input {
+    border: 1px solid #fff;
+    outline: 0px;
+    scroll-behavior: smooth;
     border-color: transparent;
+    background-color: transparent;
     font-size: 1rem;
     text-transform: capitalize;
     padding: 0.25rem 0.5rem;
-    border-radius: 5%;
   }
   label {
     font-size: 1rem;

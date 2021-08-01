@@ -1,6 +1,6 @@
-import React from 'react';
-import styled from 'styled-components';
-import { services } from '../utils/constants';
+import React from 'react'
+import styled from 'styled-components'
+import { services } from '../utils/constants'
 
 const Services = () => {
   return (
@@ -18,20 +18,20 @@ const Services = () => {
         </article>
         <div className='services-center'>
           {services.map((service) => {
-            const { id, icon, text, title } = service;
+            const { id, icon, text, title } = service
             return (
               <article key={id} className='service'>
                 <span className='icon'>{icon}</span>
                 <h4>{title}</h4>
                 <p>{text}</p>
               </article>
-            );
+            )
           })}
         </div>
       </div>
     </Wrapper>
-  );
-};
+  )
+}
 
 const Wrapper = styled.section`
   h3,
@@ -95,5 +95,5 @@ const Wrapper = styled.section`
       transform: translateY(5rem);
     }
   }
-`;
-export default Services;
+`
+export default Services

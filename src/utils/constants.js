@@ -1,5 +1,5 @@
-import React from 'react';
-import { GiCompass, GiDiamondHard, GiStabbedNote } from 'react-icons/gi';
+import React from 'react'
+import { GiCompass, GiDiamondHard, GiStabbedNote } from 'react-icons/gi'
 export const links = [
   {
     id: 1,
@@ -16,7 +16,7 @@ export const links = [
     text: 'products',
     url: '/products',
   },
-];
+]
 
 export const services = [
   {
@@ -29,16 +29,16 @@ export const services = [
     id: 2,
     icon: <GiDiamondHard />,
     title: 'vision',
-    text: '',
+    text: 'Make commerce better for everyone, so businesses can focus on what they do best: building and selling their products.',
   },
   {
     id: 3,
     icon: <GiStabbedNote />,
     title: 'history',
-    text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi',
+    text: 'Swift has always built for long term, and that means investing in our planet, our communities, and our people.We make sure that our customers are well-represented in the global economy and that they have a positive experience when they shop with us.',
   },
-];
+]
 
-export const products_url = 'https://course-api.com/react-store-products';
+export const products_url = 'https://course-api.com/react-store-products'
 
-export const single_product_url = `https://course-api.com/react-store-single-product?id=`;
+export const single_product_url = `https://course-api.com/react-store-single-product?id=`

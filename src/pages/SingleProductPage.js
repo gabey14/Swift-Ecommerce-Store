@@ -26,6 +26,7 @@ const SingleProductPage = () => {
 
   useEffect(() => {
     fetchSingleProduct(`${url}${id}`)
+    // eslint-disable-next-line
   }, [id])
 
   useEffect(() => {
@@ -34,6 +35,7 @@ const SingleProductPage = () => {
         history.push('/')
       }, 3000)
     }
+    // eslint-disable-next-line
   }, [error])
 
   if (loading) {
@@ -81,7 +83,7 @@ const SingleProductPage = () => {
               {company}
             </p>
             <hr />
-            {stock > 0 && <AddToCart product={product}/>}
+            {stock > 0 && <AddToCart product={product} />}
           </section>
         </div>
       </div>

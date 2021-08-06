@@ -1,8 +1,8 @@
-# Swift-Ecommerce-Store
+# Swift E-Commerce Store
 
 ---
 
-## An Ecommerce web-application which provides various features like sorting, filtering, as well as two view options namely Grid and List.
+## An E-Commerce web-application which provides various features like sorting, filtering, as well as two view options namely Grid and List.
 
 ## Environment Variables
 

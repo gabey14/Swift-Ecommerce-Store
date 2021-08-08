@@ -4,7 +4,7 @@
 
 ## An E-Commerce web-application which provides various features like sorting, filtering, as well as two view options namely Grid and List.
 
-## Environment Variables
+## Environment Variabless 
 
 To run this project, you will need to add the following environment variables to your .env file
 
